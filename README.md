@@ -12,14 +12,6 @@ The APK can be downloaded from the repository's **Releases** section.
 - **Online features:** Login, REMEMBER ME, online levels, and Wily Challenge (gzip support using Android's zlib).
 - **Display options:** OPTIONS > VIDEO/SOUND > SCREEN offers ORIGINAL (8:7), 4:3, 16:9, and FULL. These modes stretch the image using sharp scaling. Menus and the level editor remain in 8:7.
 
-## This Repository Does Not Include the Game
-
-This repository contains only the patches and tools required for the Android port.
-
-To build the port, you must provide your own copy of **Mega Man Maker 1.10.5.4**:
-
-- Place `data.win` in `work/windows-original/`.
-- Place the decompiled game code (using UndertaleModTool) in `work/decompiled/CodeEntries/`.
 
 ## Building the Port
 
