@@ -1,0 +1,28 @@
+# Lista blanca: se ignora todo y solo se sube el código propio del port.
+# Nunca se suben: datos del juego (data.win, código decompilado y el GML
+# generado a partir de él), APKs, la llave de firma, herramientas ni capturas.
+/*
+!/.gitignore
+!/README.md
+!/PENDIENTES.md
+!/ONLINE_ANALISIS.md
+!/REPORTE_ONLINE_CODEX.md
+!/work/
+
+/work/*
+!/work/android_editor.gml
+!/work/android_touch.gml
+!/work/android_ui.gml
+!/work/build_megamaker.ps1
+!/work/patch_startup.py
+!/work/apply_launcher_icon.py
+!/work/manifest_extensions.py
+!/work/package_megamaker.py
+!/work/android_manifest.py
+!/work/launcher-source.png
+!/work/music/
+
+/work/music/*
+!/work/music/build_music.ps1
+!/work/music/gme_bridge.cpp
+!/work/music/set_extension_class.csx
